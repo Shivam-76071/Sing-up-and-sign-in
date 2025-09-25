@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up / Sign In</title>
+<style>
+body{
+    background:#0b1a2b;
+    font-family:Segoe UI, Arial, sans-serif;
+    text-align:center;
+    padding-top:40px;
+}
+.outer{
+    width:100%;
+    
+    
+}
+
+.box{
+    width:280px;
+    background:#213242;
+    border-radius:8px;
+    padding:30px 25px;
+    margin-left: 20px;
+    display:inline-block;
+    border: 15px double #243443;
+    
+    box-shadow:inset 5px 5px 15px rgba(255,255,255,0.05),
+               inset 5px 5px 13px rgba(0,0,0,0.4),
+               0 0 20px rgba(235, 236, 236, 0.2);
+}
+.box h2{
+    color:#fff;
+    margin-bottom:25px;
+    font-weight:500;
+}
+
+.inputBox{
+    position:relative;
+    margin-bottom:18px;
+}
+.inputBox input{
+    width:80%;
+    padding:12px 40px 12px 15px;
+    border:none;
+    outline:none;
+    border-radius:30px;
+    background:#213242;
+    color:#fff;
+    box-shadow: 3px 3px 6px rgba(226, 218, 218, 0.05),
+               inset 3px 3px 6px rgba(0,0,0,0.5);
+}
+.inputBox input::placeholder{
+    color:#f0f3f3;
+}
+
+.inputBox1{
+    position:relative;
+    
+}
+.inputBox1 input{
+    width:16%;
+    padding:12px 40px 12px 15px;
+    border:none;
+    margin-left: 250px;
+    outline:none;
+    border-radius:30px;
+    background:#213242;
+    color:#fff;
+    box-shadow: 3px 3px 6px rgba(245, 244, 244, 0.05),
+               inset 3px 3px 6px rgba(0,0,0,0.5);
+}
+.inputBox1 input::placeholder{
+    color:#f0f3f3;
+}
+
+.inputBox2{
+    position:relative;
+    
+}
+.inputBox2 input{
+    width:16%;
+    padding:12px 40px 12px 15px;
+    border:none;
+    margin-left: 350px;
+    outline:none;
+    margin-top: 20px;
+    border-radius:30px;
+    background:#213242;
+    color:#fff;
+    box-shadow: 3px 3px 6px rgba(245, 244, 244, 0.05),
+               inset 3px 3px 6px rgba(0,0,0,0.5);
+}
+.inputBox2 input::placeholder{
+    color:#f0f3f3;
+}
+
+
+.btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(90deg,#18e0c2,#00bfa5);
+    color:#0b1a2b;
+    font-size:16px;
+    font-weight:600;
+    
+}
+.btn:hover{
+    background:linear-gradient(90deg,#00bfa5,#18e0c2);
+    box-shadow:0 0 10px #00bfa5;
+}
+
+.switch{
+    margin-top:20px;
+    color:#aaa;
+    font-size:14px;
+}
+.switch a{
+    color:#21e6c1;
+    text-decoration:none;
+}
+.switch a:hover{text-decoration:none;}
+</style>
+</head>
+<body>
+
+<div class="outer">
+    
+<div  class="inputBox1"><input type="text" name="" id="" placeholder="username"></div>
+<div  class="inputBox2"><input type="text" name="" id="" placeholder="Shivam tiwari"></div>
+<div style="height: 100px; width: 150px; background-color:#0b1a2b ;
+    margin-left: 1200px; margin-top: -146px; 
+    box-shadow:inset 5px 5px 15px rgba(255,255,255,0.05),
+               inset 5px 5px 13px rgba(0,0,0,0.4),
+               0 0 20px rgba(235, 236, 236, 0.2);
+               border-radius: 10px; "></div>
+               
+
+   
+  <div class="box">
+    <h2>Sign Up</h2>
+    <form>
+      <div class="inputBox">
+        <input type="text" placeholder="username" required>
+        
+      </div>
+      <div class="inputBox">
+        <input type="email" placeholder="email address" required>
+        
+      </div>
+      <div class="inputBox">
+        <input type="password" placeholder="create password" required>
+        
+      </div>
+      <div class="inputBox">
+        <input type="password" placeholder="confirm password" required>
+        
+      </div>
+      <button class="btn">Create Account</button>
+      <p class="switch">Already a member ? <a href="#" style="color: white;">Log in</a></p>
+      
+    </form>
+  </div>
+  
+
+  
+  <div class="box" style="margin-left: 180px;">
+    <h2>Sign In</h2>
+    <form>
+      <div class="inputBox">
+        <input type="text" placeholder="username" required>
+        
+      </div>
+      <div class="inputBox">
+        <input type="password" placeholder="password" required>
+        
+      </div>
+      <button class="btn">Login</button>
+      <p class="switch">Not registered ? <a href="#" style="color: white;">Create an account</a></p>
+    </form>
+  </div>
+<div style="background-color:0b1a2b; height: 355px; width: 30px;
+margin-left: 650px; margin-top: -300px; border-radius: 20px;
+    box-shadow:inset 5px 5px 15px rgba(255,255,255,0.05),
+               inset 5px 5px 13px rgba(0,0,0,0.2),
+               0 0 20px rgba(235, 236, 236, 0.2);"></div>
+</div>
+
+</body>
+</html>
